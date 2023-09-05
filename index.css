@@ -2,7 +2,9 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #DCBABA;
+    background: rgb(168,192,255);
+    background: linear-gradient(0deg, rgba(168,192,255,1) 0%, rgba(63,43,150,1) 100%);
+
     font-family: Oxygen, sans-serif;
 }
 
@@ -10,7 +12,13 @@ button {
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    background-color: red;
+    background-color: #FF8C00;
     border: 1px solid darkred;
     cursor: pointer;
+}
+
+.fun{
+
+background: rgb(252,74,26);
+background: linear-gradient(0deg, rgba(252,74,26,1) 0%, rgba(247,183,51,1) 100%);
 }
